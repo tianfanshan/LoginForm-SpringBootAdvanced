@@ -226,3 +226,32 @@ org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property o
 2023-01-11T11:08:52.181+01:00  INFO 12452 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-01-11T11:08:52.183+01:00  INFO 12452 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-01-11T11:08:52.188+01:00  INFO 12452 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-11T11:10:20.336+01:00  INFO 25684 --- [main] com.stf.SpringBootAdvancedApplication    : Starting SpringBootAdvancedApplication using Java 17.0.4.1 with PID 25684 (C:\Users\tf\udemy\spring_boot_chinese\spring-boot-advanced\target\classes started by tf in C:\Users\tf\udemy\spring_boot_chinese\spring-boot-advanced)
+2023-01-11T11:10:20.338+01:00 DEBUG 25684 --- [main] com.stf.SpringBootAdvancedApplication    : Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-11T11:10:20.339+01:00  INFO 25684 --- [main] com.stf.SpringBootAdvancedApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-01-11T11:10:20.805+01:00  INFO 25684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-11T11:10:20.849+01:00  INFO 25684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2023-01-11T11:10:21.227+01:00  INFO 25684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-11T11:10:21.235+01:00  INFO 25684 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-11T11:10:21.235+01:00  INFO 25684 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-11T11:10:21.306+01:00  INFO 25684 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-11T11:10:21.306+01:00  INFO 25684 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 932 ms
+2023-01-11T11:10:21.415+01:00  INFO 25684 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-11T11:10:21.453+01:00  INFO 25684 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-11T11:10:21.572+01:00  WARN 25684 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-11T11:10:21.662+01:00  INFO 25684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-11T11:10:21.890+01:00  INFO 25684 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5df92089
+2023-01-11T11:10:21.892+01:00  INFO 25684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-11T11:10:21.943+01:00  INFO 25684 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-01-11T11:10:22.548+01:00  INFO 25684 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-11T11:10:22.555+01:00  INFO 25684 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-11T11:10:22.820+01:00  WARN 25684 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-11T11:10:22.926+01:00  INFO 25684 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-01-11T11:10:23.103+01:00  INFO 25684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-11T11:10:23.110+01:00  INFO 25684 --- [main] com.stf.SpringBootAdvancedApplication    : Started SpringBootAdvancedApplication in 3.278 seconds (process running for 3.74)
+2023-01-11T11:10:25.229+01:00  INFO 25684 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11T11:10:25.229+01:00  INFO 25684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-11T11:10:25.230+01:00  INFO 25684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-11T11:16:11.653+01:00  INFO 25684 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-11T11:16:11.655+01:00  INFO 25684 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-11T11:16:11.661+01:00  INFO 25684 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
